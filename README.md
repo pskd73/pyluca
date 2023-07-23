@@ -1,11 +1,12 @@
 # pyluca
-A headless python double entry accounting package. It is python Luca Pacioli :) 
-It is a plug and play python module, which does NOT come with any server or databases.
+A headless Python double entry accounting package. It is Python [Luca Pacioli][luca] :) 
+It is a plug and play Python module, which does NOT come with any server or databases.
 It helps you to build your own application using core double entry accounting (pyluca)
 module.
 
 ## Usage
-On a high level, you just need to do following steps to start using it.
+On a high level, you just need to do the following steps to start using it.
+
 1. Setup accounting configuration
 2. Pass journal entries
 3. Get balances
@@ -13,8 +14,11 @@ On a high level, you just need to do following steps to start using it.
 ## Example
 **You need to have basic accounting/bookkeeping knowledge to set up the configuration**
 
-Checkout out `demo/` for examples. You can event checkout `pyluca/tests` for advance usages.
-1. Basic accounting configuration - `demo/personal_finance.py`
-2. Creating an accountant and passing journal entries - `demo/personal_finance.py`
-3. Creating events and configuring actions - `demo/personal_finance.py`
-4. Ledger usage and as of any "time" - `demo/personal_finance.py` 
+Check out `demo/personal_finance.py` for examples. You can even check out `pyluca/tests` for advanced usage.
+
+1. Basic accounting configuration
+2. Creating an accountant and passing journal entries
+3. Creating events and configuring actions
+4. Ledger usage and as of any "time"
+
+[luca]: https://enwp.org/Luca_Pacioli
